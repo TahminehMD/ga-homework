@@ -110,6 +110,7 @@ a {
 
 
 
+
 /* Footer */
 .pageFooter {
   background: #121212;
@@ -124,22 +125,4 @@ a {
   font-weight: 600;
 }
 
-.featureBox{
-  background-color: rgb(103, 103, 235);
-  padding: 20px;
-  width: 440px;
-}
-.featureBox h1{
-  font-size: 30px;
-  text-transform: uppercase;
-}
-.featureBox ul,
-.featureBox  ol {
-  margin-left: 30px;
-}
-.featureBox strong{
-  background-color: #eaeaea;
-  border:1px   solid   rgb(180, 180,180);
-  color: black;
-  padding: 5px;
-}
+
