@@ -7,10 +7,11 @@ body{
     
 }
 .first{
-    color:crimson;
+    color:rgb(105, 44, 5);
     font-weight: bold;
+    font-style: italic;
 }
-h1{
+h1,h2{
     padding:15px;
     color: #222222;
     font-style: italic;
@@ -43,4 +44,10 @@ td{
 table{
     width: 50%;
     margin-left:15px;
+}
+tr td{
+    color:#582803
+}
+a{
+    padding:15px;
 }
