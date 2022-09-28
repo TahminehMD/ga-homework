@@ -1,0 +1,47 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.features {
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  gap: 10px;
+}
+section {
+  gap: 10px;
+  margin-top: 10px;
+}
+section div {
+  background-color: rgb(243, 199, 90);
+  border: 1px solid purple;
+  padding: 10px;
+  border-radius: 10px;
+}
+section div button {
+  background-color: rgb(178, 116, 236);
+  padding: 10px;
+}
+#action {
+  background-color: rgb(219, 219, 219);
+  padding: 25px;
+  width: 33%;
+}
+#action-container {
+  padding: 75px;
+  height: 350px;
+  justify-content: right;
+  align-items: right;
+  display: flex;
+  background-image: url("https://previews.123rf.com/images/scyther5/scyther51710/scyther5171000096/89619073-business-people-happy-showing-team-work-and-giving-five-in-office-teamwork-concepts-.jpg");
+  background-size: cover;
+}
+header+h1{
+    background-color: rgb(57, 2, 57);
+    color: wheat;
+    margin: 0;
+    padding: 25px ;
+    
+
+}
