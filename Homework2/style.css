@@ -1,30 +1,55 @@
-body{
-   font-family: 'Courier New', Courier, monospace;
+:root{
+  --purple:#563256;
+  --pink:#bc90ba;
+  --gray:#d7dad6;
+  --graytrans:#d7dad690;
+  --yellow:#eed102;
+  --blue:#645c9f;
+
 }
 
-.features {
-  display: flex;
+body{
+   font-family: 'Courier New', Courier, monospace;
+   font-style: italic;
 }
+
+
 nav ul {
   list-style-type: none;
   gap: 10px;
+  margin-left: 180px;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+ 
+}
+a{
+  color:var(--blue)
+}
+header div h1{
+  background-color: var(--yellow);
+  padding: 20px;
+  margin: 0;
 }
 section {
   gap: 10px;
   margin-top: 10px;
+  display: flex;
 }
 section div {
-  background-color: rgb(243, 199, 90);
-  border: 1px solid purple;
+  background-color: var(--gray);
+  border: 1px solid var(--purple);
   padding: 10px;
   border-radius: 10px;
+  
 }
 section div button {
-  background-color: rgb(178, 116, 236);
+  background-color:var(--blue);
   padding: 10px;
+  color:var(--gray)
 }
 #action {
-  background-color: rgb(219, 219, 219);
+  background-color: var(--graytrans);
   padding: 25px;
   width: 33%;
 }
@@ -37,11 +62,26 @@ section div button {
   background-image: url("https://previews.123rf.com/images/scyther5/scyther51710/scyther5171000096/89619073-business-people-happy-showing-team-work-and-giving-five-in-office-teamwork-concepts-.jpg");
   background-size: cover;
 }
-header+h1{
-    background-color: rgb(57, 2, 57);
-    color: wheat;
+
+#delim+h1{
+    background-color: var(--purple);
+    color: var(--gray);
     margin: 0;
     padding: 25px ;
-    
-
+}
+#delim{
+  background-color: black;
+  height: 5px;
+}
+#actionbutton{
+  background-color:var(--blue);
+  color:var(--gray);
+  width: 260px;
+  height: 75px;
+  font-size: large;
+  border:2px solid var(--purple);
+}
+header{
+  display:grid;
+  grid-template-columns: 2fr 3fr;
 }
