@@ -1,0 +1,11 @@
+@keyframes move{
+    0%{ margin-left: 0px; }
+    50%{ margin-left: 500px; }
+    100%{ margin-left: 0px; }
+}
+
+img{    
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
+}
