@@ -1,11 +1,52 @@
-@keyframes move{
-    0%{ margin-left: 0px; }
-    50%{ margin-left: 500px; }
-    100%{ margin-left: 0px; }
+@keyframes move {
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 50%;
+    }
+    100%{
+        margin-left: 0px;
+    }
 }
 
-img{    
+header{
+    display: flex;
+    color: aliceblue;
+}
+
+body{
+    background-color: rgb(61, 61, 61);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ball{
     animation-name: move;
+    animation-iteration-count: 1000;
+    border-radius: 1000px;
+    margin: -20px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ball1{    
+    background-color: rgba(255, 221, 0, 0.654);
+    animation-duration: 4s;    
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+}
+#ball2{    
+    background-color: rgba(205, 158, 250, 0.737);
+    animation-duration: 6s;    
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+}
+#ball3{    
+    background-color: rgba(255, 163, 129, 0.705);
     animation-duration: 2s;
-    animation-iteration-count: 100;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
 }
