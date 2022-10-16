@@ -6,7 +6,7 @@ let score = 0;
 let arenaEl = document.querySelector('.js-arena');
 let scoreEl = document.querySelector('.js-score');
 
-let balls = document.querySelectorAll("js-ball")
+let balls = document.querySelectorAll(".js-ball");
 for (let i = 0; i < 3; i++) {
     balls[i].addEventListener('click', function () {
         score = score + 10
